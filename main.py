@@ -140,4 +140,5 @@ def main():
 
     print(f"You left with ${balance}")
 
-main()
+if __name__ == "__main__": # ensures that main() is executed only when main.py is run as a script
+    main()
